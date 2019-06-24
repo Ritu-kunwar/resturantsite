@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>RESTURANT</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One|Satisfy" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/hover.css">
+    <link rel="stylesheet" type="text/css" href="datepicker.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-default nav-fixed-top navbar-inverse ">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">RESTURANT</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="index1.html" class="hvr-underline-from-center">Home</a></li>
+                    <li><a href="about-us.html" class="hvr-underline-from-center">About us</a></li>
+                    <li><a href="menu.html" class="hvr-underline-from-center">Menu</a></li>
+
+                    <li><a href="reservation.html" class="hvr-underline-from-center">Contact us</a></li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <section>
+
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner overflow-carousel">
+                <div class="item active">
+                    <img src="img/cupp.jpg" alt="Chania" class="img-responsive">
+                    <div class="carousel-caption">
+                        <h2> WELCOME TO OUR RESTAURANT</h2>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="img/food.jpg" alt="Chicago" class="img-responsive">
+                    <div class="carousel-caption">
+
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/food1.jpg" alt="Chicago" class="img-responsive pizza">
+                    <div class="carousel-caption">
+
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="img/food2.jpg" alt="New York" class="img-responsive">
+                    <div class="carousel-caption">
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+    <section>
+        <!--socialicon-->
+        <div class="social-icons">
+            <ul>
+                <div class="si">
+                    <li><a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
+                </div>
+                <div class="si">
+                    <li><a href="https://twitter.com/"><i class="fa fa-twitter"></i></a></li>
+                </div>
+
+                <div class="si">
+                    <li><a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a></li>
+                </div>
+
+            </ul>
+        </div>
+
+    </section>
+    <section class="reservation_booktable">
+        <div class="container booktable ">
+            <div class="row">
+                <div class="col-md-12 ">
+                    <h2 class="bookatable" align="center">BOOK A TABLE</h2>
+                    <p align="center">Opening hour<b> 8:00AM</b>-<b>11:00PM</b>,every day on week</p>
+
+                    <!--reserv-->
+                    <div>
+
+                        <form class="form-inline reservation" action="/action_page.php">
+
+                            <div class="form-group">
+
+                                <input class="form-control datepicker" id="date" placeholder="12/31/2019">
+                            </div>
+                            <div class="form-group">
+
+                                <select class="form-control date " value="">
+
+                                    <option value="8:00am">8:00 am</option>
+                                    <option value="8:30am">8:30 am</option>
+                                    <option value="9:00am">9:00 am</option>
+                                    <option value="9:30am">9:30 am</option>
+                                    <option value="10:00am">10:30 am</option>
+                                    <option value="11:00am">11:00 am</option>
+                                    <option value="11:30am">11:30 am</option>
+                                    <option value="12:00pm">12:00 pm</option>
+                                    <option value="12:30pm">12:30 pm</option>
+                                    <option value="1:00pm">1:00 pm</option>
+                                    <option value="1:30pm">1:30 pm</option>
+                                    <option value="2:00pm">2:0 pm</option>
+                                    <option value="2:30pm">2:30 pm</option>
+                                    <option value="3:00pm">3:00 pm</option>
+
+                                </select>
+                            </div>
+                            <div class="form-group ">
+
+                                <select class="form-control date">
+                                    <option value="2people">2people</option>
+                                    <option value="3people">3people</option>
+                                    <option value="4people">4people</option>
+                                    <option value="5people">5people</option>
+                                    <option value="6people">6people</option>
+                                    <option value="7people">7people</option>
+                                    <option value="8people">8people</option>
+                                    <option value="9people">9people</option>
+                                </select>
+
+                            </div>
+                            <div class="checkbox">
+
+                            </div>
+                            <button type="submit" class="btn hvr-sweep-to-right"><b>Submit</b></button>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="about-us">
+        <div class="row">
+            <div class=" col-md-6 right" data-aos="fade-up">
+                <img src="img/salmon-518032_1920.jpg" class="img-responsive">
+
+            </div>
+            <div class="col-md-6 left " data-aos="fade-left">
+                <div class="about-content">
+                    <h2>ABOUT US</h2>
+                    <p align="justify">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.</p>
+
+                    <button type="button" class="btn btn-default  hvr-sweep-to-right button-about btn-class" data-aos="rectangle-in"><b>Read more</b></button>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="main-1">
+
+        <div class="container fiximage">
+            <div class="row">
+                <div class="col-md-5 blackend">
+                    <div class="row blackendhead">
+                        <h2>Menu</h2></div>
+                    <div class="row abc">
+                        <div class="left-float">
+                            <h3>ITEM</h3>
+                            <ul class="item">
+                                <li>NEPALI FOOD</li>
+                                <li>INDIAN FOOD</li>
+                                <li>ITALIAN FOOD</li>
+                                <li>KOREAN FOOD</li>
+                                <li>CHINESE FOOD</li>
+                                <li>THAI FOOD</li>
+                                <li> MEXICAN FOOD</li>
+                            </ul>
+                        </div>
+                        <div class="right-float">
+                            <h3>PRICE</h3>
+                            <ul class="item ">
+                                <li>RS 450</li>
+                                <li>RS 350</li>
+                                <li>RS 400</li>
+                                <li>RS 550</li>
+                                <li>RS 350</li>
+                                <li>RS 300</li>
+                                <li>RS 500</li>
+                            </ul>
+                        </div>
+
+                        <!--   <div class="col-md-6  blackendside">
+                             <h3>ITEM</h3>
+                            <ul class="item">
+                                <li>NEPALI FOOD</li>
+                                <li>INDIAN FOOD</li>
+                                <li>ITALIAN FOOD</li>
+                                <li>KOREAN FOOD</li>
+                                <li>CHINESE FOOD</li>
+                                <li>THAI FOOD</li>
+                                <li> MEXICAN FOOD</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 blackendside">
+                             <h3>PRICE</h3>
+                            <ul class="item">
+                                <li>RS 450</li>
+                                <li>RS 350</li>
+                                <li>RS 400</li>
+                                <li>RS 550</li>
+                                <li>RS 350</li>
+                                <li>RS 300</li>
+                                <li>RS 500</li>
+                            </ul>
+
+                        </div> -->
+                    </div>
+                </div>
+                <div class="col-md-7"></div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="sectiongallery">
+        <div class="container gallery">
+            <div class="row">
+                <h2>GALLERY</h2>
+                <div class="col-md-4  row1">
+                    <div class="gallery-item">
+
+                        <div class="image-caption">
+                            <p>Sushi</p>
+                        </div>
+                        <!-- Trigger the modal with a button -->
+                        <a href="#" data-toggle="modal" data-target="#myModal4"> <img src="img/food-2200139_1920.jpg" class="img-responsive"></a>
+
+                        <!-- Modal -->
+                        <div id="myModal4" class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+
+                                <!-- Modal content-->
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title">Sushi</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="img/food-2200139_1920.jpg" class="img-responsive">
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4  row1">
+                    <div class="gallery-item" ">
+
+                        <div class="image-caption ">
+                            <p>Fry Rice</p>
+                        </div>
+                        <!-- Trigger the modal with a button -->
+                        <a href="# " data-toggle="modal " data-target="#myModal "> <img src="img/fried-rice-3023040_1920.jpg " class="img-responsive "></a>
+
+                        <!-- Modal -->
+                        <div id="myModal " class="modal fade " role="dialog ">
+                            <div class="modal-dialog ">
+
+                                <!-- Modal content-->
+                                <div class="modal-content ">
+                                    <div class="modal-header ">
+                                        <button type="button " class="close " data-dismiss="modal ">&times;</button>
+                                        <h4 class="modal-title ">Fry Rice</h4>
+                                    </div>
+                                    <div class="modal-body ">
+                                        <img src="img/fried-rice-3023040_1920.jpg " class="img-responsive ">
+                                    </div>
+                                    <div class="modal-footer ">
+                                        <button type="button " class="btn btn-default " data-dismiss="modal ">Close</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 row1 ">
+                    <div class="gallery-item " ">
+
+                        <div class="image-caption">
+                            <p>Bhujiya</p>
+                        </div>
+                        <!-- Trigger the modal with a button -->
+                        <a href="#" data-toggle="modal" data-target="#myModal3"> <img src="img/meal-2068489_1920.jpg" class="img-responsive"></a>
+
+                        <!-- Modal -->
+                        <div id="myModal3" class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+
+                                <!-- Modal content-->
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title">Prawn</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="img/meal-2068489_1920.jpg" class="img-responsive">
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="container ">
+            <div class="row">
+                <div class="col-md-4 row1">
+                    <div class="gallery-item">
+
+                        <div class="image-caption">
+                            <p>Chicken</p>
+                        </div>
+                        <!-- Trigger the modal with a button -->
+                        <a href="#" data-toggle="modal" data-target="#myModal2"> <img src="img/restaurant-1018213_1920.jpg" class="img-responsive"></a>
+
+                        <!-- Modal -->
+                        <div id="myModal2" class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+
+                                <!-- Modal content-->
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title">Chicken</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="img/restaurant-1018213_1920.jpg" class="img-responsive">
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4 row1">
+                    <div class="gallery-item">
+
+                        <div class="image-caption">
+                            <p>Tandoori</p>
+                        </div>
+                        <!-- Trigger the modal with a button -->
+                        <a href="#" data-toggle="modal" data-target="#myModal1"> <img src="img/tandoori-3856045_1920.jpg" class="img-responsive"></a>
+
+                        <!-- Modal -->
+                        <div id="myModal1" class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+
+                                <!-- Modal content-->
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title">Tandoori</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="img/tandoori-3856045_1920.jpg" class="img-responsive">
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 row1">
+                    <div class="gallery-item">
+
+                        <div class="image-caption">
+                            <p>Prawn</p>
+                        </div>
+                        <!-- Trigger the modal with a button -->
+                        <a href="#" data-toggle="modal" data-target="#myModal"> <img src="img/prawn-441623_1920.jpg" class="img-responsive"></a>
+
+                        <!-- Modal -->
+                        <div id="myModal" class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+
+                                <!-- Modal content-->
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title">Prawn</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="img/prawn-441623_1920.jpg" class="img-responsive">
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- <section class="contactus">
+            <div class="col-md-3"></div>      
+            <div class="col-md-6">
+              <h2>Book A Table</h2>
+
+            </div>      
+            <div class="col-md-3"></div>      
+    </section>-->
+
+    <!-- <section class="broll">
+
+            <div class="row">
+                <div id="block2" style="width: 100%; height: 500px;"
+  data-vide-bg="mp4: img/Downloads, webm: video/Downloads
+  data-vide-options="position: 0% 50%">
+  <div class="text">
+      <h2>COFFEE MAKING</h2>
+  </div>
+
+            </div>
+
+        </div>
+    </section>-->
+    <section class="footer">
+        <div class="main-tint">
+            <div class="container">
+
+                <div class="row bcd">
+                    <div class="info">
+                        <div class="col-md-3">
+                            <h3>QUICK LINKS</h3>
+
+                            <p>Home</p>
+                            <p>Aboutus</p>
+
+                            <p>Menu</p>
+                            <p>Gallery</p>
+                            <p>Contactus</p>
+
+                        </div>
+                        <div class="col-md-3">
+                            <h3> SERVICES </h3>
+
+                            <p>Home Delivery</p>
+                            <p>Pre-Bookingseat</p>
+                            <p>Online Ordering</p>
+                            <p>Hygenic Food</p>
+
+                        </div>
+
+                        <div class="col-md-3">
+                            <h3>POKHARA </h3>
+
+                            <p>Chiplaydhunga,Newroad</p>
+                            <p>(+977061400000) </p>
+                        </div>
+                        <div class="col-md-3">
+                            <h3>KATHMANDU</h3>
+                            <p> Dillibazar,Kathmandu</p>
+                            <p>(+977011400000)</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="row footer-copyright">
+
+            <p align="center" class="all-right">@ 2018 Info Edge (Nepal) Ltd.</p>
+        </div>
+    </section>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(window).on('scroll', function() {
+                var scroll = $(window).scrollTop();
+
+                if (scroll >= 20) {
+                    $('.navbar-default').addClass('affix');
+                } else {
+                    $('.navbar-default').removeClass('affix');
+                }
+            });
+        })
+    </script>
+    <script src="js/parallax.min.js"></script>
+    <script src="js/bootstrap-datepicker.js"></script>
+    <script>
+        $('.datepicker').datepicker()
+    </script>
+    <script>
+        $('.parallax-window').parallax({
+            imageSrc: 'img/baked-goods-1853261_1920.jpg'
+        });
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="text/javascript" src="js/aos.js"></script>
+    <script type="text/javascript" src="js/jquery.vide.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#block').vide('img/Downloads'); // Non declarative initialization
+
+            var instance = $('#block').data('vide'); // Get the instance
+            var video = instance.getVideoObject(); // Get the video object
+            instance.destroy(); // Destroy instance
+
+            $('#block2').vide({
+                'mp4': 'img/Downloads',
+                'webm': 'img/Downloads',
+                'ogv': 'img/Downloads',
+                'poster': 'img/Downloads',
+            });
+        });
+    </script>
+
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>
